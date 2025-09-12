@@ -31,3 +31,6 @@ The decoder operates as a finite state machine. It begins in IDLE, initializes p
 The testbench (powerhouse.v) provides stimulus to the decoder. It defines a sequence of received symbols, feeds them into the FSM, and prints the decoded bitstream, corrected codeword, and received sequence. The testbench is easily customizable for trying different input patterns or simulating noise conditions.
 
 In summary, this project ties together the BMU, PMU/ACSU, and TBU blocks into a functional Viterbi decoder, demonstrating maximum-likelihood sequence estimation in hardware. It serves as both a learning tool and a reference implementation for digital communication system design.
+
+## License
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
